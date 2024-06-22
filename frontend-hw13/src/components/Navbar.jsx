@@ -70,7 +70,7 @@ const Navbar = () => {
           </Button>
         ) : (
           <Button
-            colorScheme='blue'
+            colorScheme='red'
             onClick={() => {
               window.localStorage.removeItem("token");
               setIsLogin(false);
